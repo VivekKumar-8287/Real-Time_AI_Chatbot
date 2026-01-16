@@ -3,6 +3,11 @@
 
 A high-performance, full-stack AI chat application featuring real-time, token-by-token streaming responses. Built with a React frontend and a Node.js/WebSocket backend, this project demonstrates smooth UX patterns for AI interactions, including a buffered "typewriter" effect and persistent chat history.
 
+## 📺 Video Walkthrough
+
+https://github.com/user-attachments/assets/93fdc51c-d13f-44ed-a3cf-7d6a9742d009
+
+
 ## 🚀 Tech Stack
 
 **Frontend:**
@@ -112,15 +117,10 @@ root/
 
 ## ⏱️ Time Spent
 
-* **Backend/API Integration:** 1.5 hours
-* **WebSocket & Streaming Logic:** 2 hours
-* **UI/UX & Dark Mode:** 1.5 hours
-* **Total:** ~5 hours
+* **1 day**
 
 ---
 
-## 📺 Demo
 
-[Link to Demo Video](https://www.google.com/search?q=Your_Link_Here)
 
 
