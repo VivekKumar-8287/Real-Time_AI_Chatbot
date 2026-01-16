@@ -119,7 +119,7 @@ export const useWebSocket = (url: string) => {
       socketRef.current?.send(JSON.stringify({ text }));
     } else {
       connect(); 
-      alert("Reconnecting...");
+      alert("Reconnecting to server... please try again in a moment.");
     }
   }, [connect]);
 
