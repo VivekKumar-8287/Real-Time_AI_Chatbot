@@ -1,0 +1,39 @@
+# Dependency directories
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Environment variables (Crucial for security!)
+.env
+backend/.env
+frontend/.env.local
+
+# Build outputs
+dist/
+frontend/dist/
+backend/dist/
+out/
+
+# IDE / System files
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Debug/Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs
+*.log
+
+# TypeScript
+*.tsbuildinfo
+
+# Local storage / Cache
+.eslintcache
+.vite/

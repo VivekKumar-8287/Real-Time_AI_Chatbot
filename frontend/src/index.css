@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  body {
+    @apply transition-colors duration-300;
+  }
+}
+
+/* This ensures react-markdown code blocks and text look good in dark mode */
+.dark .prose {
+  --tw-prose-body: var(--color-slate-100);
+  --tw-prose-headings: var(--color-white);
+  --tw-prose-links: var(--color-blue-400);
+  --tw-prose-bold: var(--color-white);
+  --tw-prose-code: var(--color-pink-400);
+}
